@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: #EFF0F1;
+}
+
+.NavBar {
+    width: 100%;
+    height: 80px;
+    background-color: #EFF0F1;
+    display: flex;
+}
+
+.logo-virus {
+    display: flex;
+    align-items: flex-end;
+}
+
+.logo-virus img {
+    width: 60px;
+}
+
+.header-content {
+    padding: 3% 5%;
+}
+
+.img-screen {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.img-screen img {
+    height: 50vh;
+}
+
+.head-data h1 {
+    font-weight: 900;
+    font-size: 38px;
+}
+
+.head-data p {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.head-btn {
+    padding-bottom: 5%;
+}
+
+.head-btn button {
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+
+/* Main section starts from here */
+
+.main-head {
+    font-weight: 600;
+}
+
+.main-img {
+    width: 100px;
+    margin-bottom: 13px;
+}
+
+.content-small{
+    text-align: center;
+}
+
+.content-small p {
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+.content-small h3 {
+    font-size: 22px;
+    margin-top: 12px;
+    font-weight: 600;
+}
+
+@media (max-width: 770px) {
+    .head-data h1 {
+        font-size: 26px;
+    }
+
+    .head-data p {
+        font-size: 12px;
+    }
+
+    .img-screen img {
+        height: 40vh;
+        margin-top: 30%;
+    }
+    .head-btn button {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 700px) {
+    .content-small {
+        display: flex;
+        text-align:start;
+        margin-bottom: 5%;
+        margin-left: 16px;
+        border-top: 1px solid #ccc;
+        padding-top: 12px;
+    }
+    .content-main {
+        display: flex;
+        flex-direction: column;
+    }
+    .content-main a {
+        display: block;
+        margin-left: 87%;
+        margin-top: -80px;
+    }
+    .content-small p {
+        font-size: 14px;
+        margin-top: 0;
+        padding-right: 33px;
+    }
+    .main-img {
+        width: 70px;
+        margin-bottom: 13px;
+        margin-right: 20px;
+    }
+    .content-small h3 {
+        font-size: 18px;
+        font-weight: 800;
+    }
+    .content-small p {
+        font-size: 12px;
+    }
+}
+
+/* Second Page (Covid019) */
+
+.covid-virus {
+    margin-bottom: -18px;
+}
+
+.newNav {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.newNav .close {
+    display: flex;
+    align-items: center;
+}
+
+.covid-data {
+    text-align: justify;
+}
+
+.covid-data h1 {
+    font-weight: 800;
+}
+
+.covid-data h3 {
+    font-weight: 800;
+}
+
+.covid-data p {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+/* Sysptoms page */
+
+.symp-data h1 {
+    font-weight: 800;
+}
+
+.symp-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.symp-btn button {
+    margin-top: 12px;
+    width: 40%;
+}
+
+/* Prevent Page */
+
+.prevent-data h1 {
+    font-weight: 800;
+}
+
+.prevent-data ol li{
+    font-size: 18px;
+    line-height: 30px;
+}
